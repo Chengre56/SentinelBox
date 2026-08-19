@@ -50,4 +50,4 @@ AI CODING AGENT
      ## Commercial License
 If you want to use SentinelBox for commercial applications, team workflows, or proprietary environments, a commercial license is available for **$39 USD**. 
 
-To purchase a license securely via card, email me directly at **your-email@gmail.com** to receive a Payoneer payment invoice.
+To purchase a license securely via card, email me directly at **bhattavishesh69@gmail.com** to receive a Payoneer payment invoice.
