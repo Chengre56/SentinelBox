@@ -1,0 +1,24 @@
+{
+  "default_action": "DENY",
+  "allowed_executables": [
+    "python",
+    "python3",
+    "pytest",
+    "ruff",
+    "mypy",
+    "git",
+    "cargo",
+    "npm",
+    "node"
+  ],
+  "denied_executables": [
+    "shutdown",
+    "reboot",
+    "format",
+    "diskpart",
+    "mkfs",
+    "dd",
+    "sudo",
+    "chown"
+  ]
+}

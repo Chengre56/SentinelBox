@@ -1,0 +1,42 @@
+sandbox:
+  mode: isolated
+  preserve_git: true
+  hash_mode: BALANCED
+
+execution:
+  shell: auto
+  timeout_seconds: 120
+  max_output_bytes: 10485760
+
+verification:
+  fail_fast: true
+  commands:
+    - "python -m compileall ."
+    - "pytest"
+
+network:
+  mode: deny
+
+logging:
+  directory: ".sentinelbox/logs"
+  max_file_size_mb: 50
+  backup_count: 10
+
+policy:
+  default_action: deny
+  allowed_commands:
+    - python
+    - python3
+    - pytest
+    - ruff
+    - mypy
+    - npm
+    - node
+    - git
+  denied_commands:
+    - shutdown
+    - reboot
+    - format
+    - diskpart
+    - mkfs
+    - sudo
